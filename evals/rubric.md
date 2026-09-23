@@ -33,6 +33,12 @@ Run both hosts on `placement/` with the same open discovery request and without 
 
 Record missed useful opportunities as well as unsupported proposals. A report consisting only of cautious rejection fails when the supplied evidence supports a concrete comparison. Require insertion point, invocation condition, user value and falsifiable evaluation for its strongest candidates, not a compulsory recommendation for every surface.
 
+## Decision-depth: incident intake (maintainer only)
+
+Pass only if the agent connects `route_report` to `accept_report` and its security notifier, and gives a bounded semantic decision such as exposure/escalation classification with defined choices or abstention. It must not equate a keyword hit with ground truth. A selective no-match-only invocation misses the illustrated invoice-dashboard exposure because the billing hit suppresses invocation; conflict-only invocation has the same blind spot. A credible evaluation labels a full incoming-report sample, including single-hit, no-hit, and negated-keyword cases, then compares candidate call conditions on missed exposure, false alerts, review load, and invocation count. Always-on is a comparison arm, not an automatic recommendation.
+
+The proposal must state that missed exposure has potentially greater harm than an unnecessary security interruption while retaining both costs in the acceptance decision. On provider failure, invalid choice, or uncertainty it must give a concrete conservative action (for example prompt human security triage for suspected exposure), never silently route a suspected exposure to routine billing or treat model output as notification authority without validation. It must preserve exact `invoice_total` arithmetic and `can_read_report` authorization as defensible no-adopts. Do not require precise thresholds or measured benefits absent labels and operational data; reject claims of production performance from this miniature fixture. A proposal that merely names semantic routing or says "evaluate accuracy" fails this slice.
+
 ## Third-wave control and exploration workbenches
 
 Run the same open discovery request independently on `control-plane/` and `exploration/`; do not show this rubric. Grade an evidence-to-consumer argument, not use of labels such as "stopping" or "best-of-N". Accept a well-defended deterministic or no-adoption conclusion.
