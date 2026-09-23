@@ -1,0 +1,8 @@
+.local/
+docs/log/codex/
+.DS_Store
+.env
+.env.*
+!.env.example
+skills/jev-scout/local.json
+__pycache__/

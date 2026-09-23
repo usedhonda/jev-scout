@@ -1,0 +1,4 @@
+interface:
+  display_name: "Jev Scout"
+  short_description: "Find, measure, and implement useful Jev opportunities"
+  default_prompt: "Use $jev-scout to assess this repository and compare worthwhile Jev adoption opportunities."

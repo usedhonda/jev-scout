@@ -1,0 +1,8 @@
+{
+  "approved": false,
+  "data_scope": "Only the six synthetic support cases in evals/support/experiment.json; no repository source, credentials or customer data",
+  "max_requests": 6,
+  "max_input_bytes": 16000,
+  "max_seconds": 60,
+  "max_retries": 0
+}
