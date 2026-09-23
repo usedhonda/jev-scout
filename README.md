@@ -17,6 +17,19 @@ Discovery, candidate comparison, and the `status`/`preview` commands work withou
 
 For Claude Code and Codex installation details, see the Japanese guidance below.
 
+## Jev導入設計の論考
+
+エージェント向けSkillとは別に、設計者が読める[**Jev導入の設計地図――意味判断を、どこに、どこまで置くか**](docs/jev-adoption-field-guide.md)を公開しています。Jevの基本操作ではなく、既存ソフトウェアのどの判断を切り出し、どこを通常コードに残すかを扱う技術的な検討です。Skillを使うための必読資料ではありません。
+
+四段階の調査を横断し、次の問いを具体的なOSSのコード経路と対照例から掘り下げます。
+
+- 正規表現、HTTP status、経過日数、XPathなどは、どの「意味」の代理になっているか。
+- 置換だけでなく、意味条件の追加、競合時だけの判断、後段ゲート、検索停止やテスト選択のような制御系へ、どこに置けるか。
+- 既存LLMの有限な操作選択と文章生成をどう分け、候補不足・不確実性・副作用をどう扱うか。
+- 単純な規則改善と同じデータでどう比較し、**導入しない**結論をいつ出すか。
+
+公開コードを手掛かりにした導入案は未検証の仮説であり、精度や費用の改善実績ではありません。調査原本はこの公開リポジトリに含めていません。
+
 ## 使う
 
 - Claude Code: `/jev-scout このリポジトリでJevを導入する価値を調べて`
@@ -62,10 +75,6 @@ python3 skills/jev-scout/scripts/jev_scout.py preview --experiment evals/support
 `preview` は認証も通信も不要。`run` は承認済みポリシーと新しいGit対象外の出力先を必要とします。実験結果はAPI正常応答と正解率、本番反映を区別して解釈してください。
 
 評価題材・採点基準は [evals](evals/README.md)、設計は [docs/design.md](docs/design.md)。ホスト間で文章が一致することではなく、根拠・非採用判断・検証可能な提案を評価します。
-
-## 深く学ぶ
-
-Jevの基本操作を知っている読者向けに、4段階の調査を再構成した[導入設計の論考](docs/jev-adoption-field-guide.md)を公開しています。既存コードで意味判断の挿入点を発見する方法、制御系・弱い代理指標・生成モデルの部分分解、導入しない判断、比較実験と失敗設計を扱います。調査原本は公開repoに含めません。
 
 ## 深い導入提案
 
