@@ -25,6 +25,8 @@ Also follow these seams when they exist:
 - **Repeated agent action selection:** an agent or tool loop repeatedly asks a generative model which known tool, operation or on-screen element to use. Consider Jev selecting operation and target IDs from a runtime-indexed closed set, with the executor revalidating freshness and permissions and a generative model used only when text must be written.
 - **Handcrafted text features in a classical model:** keyword flags or counts feed an existing predictor. Consider Noul/Score probabilities as additional features rather than replacing the predictor; this needs offline labeled data and a comparison against the current features.
 
+Do a separate, bounded control-plane pass when the repository has iterative work, costly computation, state retention, streams, or generated candidates. Follow the code that decides **stop/continue**, **keep/evict**, **run/skip**, **commit/wait**, or **which branch/candidate to examine next**. Search terms such as `max_rounds`, `retry`, `compact`, `affectedTests`, `silenceTimeout`, `heuristic`, and `best_of_n` are entrypoints, not findings. Trace the actual state, downstream consequence and hard constraints; then read [control-plane patterns](control-plane.md). Do not spend this pass on repositories with no such seam or invent a workload from a keyword match.
+
 ## Report card example
 
 **Candidate:** ticket queue selection in `router.route`, consuming `ticket.text`.

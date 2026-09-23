@@ -16,6 +16,8 @@ Resolve this folder from the loaded SKILL.md location (following symlinks), not 
 
 Read [question design](references/question-design.md) before drafting questions, state, thresholds or a model identifier. For candidates beyond a straightforward replacement, read [integration patterns](references/integration-patterns.md). Use two independent lenses: **value** (improve existing behavior, assist human work, enable a new capability) and **placement** (replacement, added semantic condition, downstream filter, conflict resolver, advisory signal). These are combinable prompts, not exhaustive categories or proposal quotas.
 
+Also inspect decisions that control the work itself: when a loop stops, what state survives, which expensive work runs, when partial input is committed, and how search or generated candidates are evaluated. If such a seam exists, read [control-plane patterns](references/control-plane.md). This is a discovery lens, not a requirement to recommend Jev in every repository.
+
 ## Understand before matching patterns
 
 Read project instructions, purpose, entrypoints, data models, representative inputs and tests. Trace an actual input through its judgment to the consumer or side effect. Consider existing AI, ordinary rules/search, documented human work, useful capabilities enabled by existing data, and development/operations. These are lenses, not quotas.
@@ -42,6 +44,8 @@ Return a compact overview and detailed cards for the strongest candidates:
 6. Uncertainty, service failure and stale-input handling; next concrete experiment or implementation step.
 
 For each leading candidate add a concrete placement, call condition and smallest useful rollout (display, prioritization, assisted action or automatic action). Show why it creates value, not merely why a primitive fits. Add provenance and decision/evidence consistency checks only when the task actually selects source evidence. Evidence correction enforces an explicit invariant, not semantic truth. Do not force every candidate through every rollout stage or require missing production metrics before proposing a bounded comparison.
+
+When useful, name the candidate's **decision role** separately from its placement: classify, terminate, retain, allocate compute, check a semantic invariant, detect progress drift, decide commit timing, guide search, evaluate generated candidates, or compose bounded choices. The label is optional; the traced data, decision and consumer matter more than taxonomy.
 
 Conclude **validate**, **information needed**, or **do not adopt** with reasons. Rank by value, feasibility, evidence and burden, not fabricated numerical precision. Distinguish no useful candidate from incomplete inspection. An API response is not proof of accuracy; an experiment is not proof of production integration.
 
