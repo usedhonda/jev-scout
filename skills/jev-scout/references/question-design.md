@@ -8,6 +8,8 @@ Ask one atomic judgment per question over the same state. A broad question such 
 
 Independent questions over one state can share a request; do not claim a specific cost or latency gain without measuring it for the target. Questions in one request cannot see one another's answers (see [integration patterns](integration-patterns.md)).
 
+Shared state is visible to every question in the request. Keep facts common to all judgments there; put evidence or premises specific to one question in that question's instructions, or split the requests when the contexts would interfere. Batch only after checking that question-specific context does not bias unrelated answers.
+
 ## Phrase criteria as the property that matters
 
 Describe the operation or property that changes the consumer's decision, not a topic noun. "Touches credentials" also matches read-only inspection; "modifies credentials or the mechanism that enforces approval" states what actually matters. Keep Choice criteria mutually distinguishable and non-contradictory, and include an explicit `none`/`other` label when the answer may lie outside the set.

@@ -20,6 +20,8 @@ Also inspect decisions that control the work itself: when a loop stops, what sta
 
 When code uses a weak signal as a proxy for meaning (status, regex, age, XPath, strict convention, or a generative model's mixed output), read [semantic seams](references/semantic-seams.md). Check whether the input contains distinguishing evidence and whether the product instead promises canonical, reproducible output. Neither a weak rule nor a subjective-looking domain alone makes a Jev opportunity.
 
+For a leading candidate, or when the user asks for a deeper adoption proposal, read [decision quality](references/decision-quality.md). Use it to trace the entire policy from the call selector through candidate generation, Jev, fallback and final action. Do not apply its full evaluation plan to weak ideas or demand unavailable production measurements merely to make a discovery proposal.
+
 ## Understand before matching patterns
 
 Read project instructions, purpose, entrypoints, data models, representative inputs and tests. Trace an actual input through its judgment to the consumer or side effect. Consider existing AI, ordinary rules/search, documented human work, useful capabilities enabled by existing data, and development/operations. These are lenses, not quotas.
@@ -44,6 +46,8 @@ Return a compact overview and detailed cards for the strongest candidates:
 4. Expected benefit and added network, service, maintenance, evaluation and migration costs; no invented savings.
 5. Evidence level, baseline, acceptance/rejection criteria, unresolved decision-changing information.
 6. Uncertainty, service failure and stale-input handling; next concrete experiment or implementation step.
+
+For the strongest candidate, distinguish failures of **observation**, **invocation selection**, **candidate coverage**, **conditional model judgment** and **final action**. State which errors matter most and how the chosen placement limits their consequences; a high-confidence answer does not grant authority. Give a falsifiable comparison against a strong simple baseline on the same cases, including a reason to abandon Jev. If labeled data are unavailable, specify the minimal cases and labels needed rather than presenting a hypothetical gain as measured.
 
 For each leading candidate add a concrete placement, call condition and smallest useful rollout (display, prioritization, assisted action or automatic action). Show why it creates value, not merely why a primitive fits. Add provenance and decision/evidence consistency checks only when the task actually selects source evidence. Evidence correction enforces an explicit invariant, not semantic truth. Do not force every candidate through every rollout stage or require missing production metrics before proposing a bounded comparison.
 
