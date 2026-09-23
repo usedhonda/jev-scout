@@ -65,7 +65,7 @@ python3 skills/jev-scout/scripts/jev_scout.py preview --experiment evals/support
 
 ## 深く学ぶ
 
-Jevの基本操作を知っている読者向けに、4段階の調査を再構成した[導入実務書](docs/jev-adoption-field-guide.md)を公開しています。既存コードで意味判断の挿入点を発見する方法、制御系・弱い代理指標・生成モデルの部分分解、導入しない判断、比較実験と失敗設計を扱います。調査原本は公開repoに含めません。
+Jevの基本操作を知っている読者向けに、4段階の調査を再構成した[導入設計の論考](docs/jev-adoption-field-guide.md)を公開しています。既存コードで意味判断の挿入点を発見する方法、制御系・弱い代理指標・生成モデルの部分分解、導入しない判断、比較実験と失敗設計を扱います。調査原本は公開repoに含めません。
 
 ## 深い導入提案
 
