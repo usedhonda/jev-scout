@@ -32,3 +32,22 @@ Run both hosts on `placement/` with the same open discovery request and without 
 | compare_versions / authorized | Leave exact operations intact; adjacent features remain possible | Probabilistic ordering or ACL permission |
 
 Record missed useful opportunities as well as unsupported proposals. A report consisting only of cautious rejection fails when the supplied evidence supports a concrete comparison. Require insertion point, invocation condition, user value and falsifiable evaluation for its strongest candidates, not a compulsory recommendation for every surface.
+
+## Third-wave control and exploration workbenches
+
+Run the same open discovery request independently on `control-plane/` and `exploration/`; do not show this rubric. Grade an evidence-to-consumer argument, not use of labels such as "stopping" or "best-of-N". Accept a well-defended deterministic or no-adoption conclusion.
+
+| Surface | Grounded opportunity or boundary to consider | Failure mode a good report can test |
+| --- | --- | --- |
+| `find_support` | A stop/continue signal after inspected evidence, with record IDs and fixed read budget retained | Early answer ignores a late correction, or extra reads add no value |
+| `ci_for_change` | Compare semantic impact selection to owner mapping, retaining no-map/failure full-suite fallback and protected checks | Missed affected test or expanded cost erases benefit |
+| `task_context` | Select relevant context or check cache reuse at revision boundaries; keep exact source inspection | Stale summary displaces a newer constraint |
+| `review_proposal` | Detect meaning-level contract/goal drift before review while approvals remain exact | Paraphrase false alarm or copied words mask changed intent |
+| `retrieve_notes` | Use classical retrieval as a prior and test shortlist recall before any reranking | Relevant paraphrase never reaches the shortlist |
+| `beam_route` | Consider a semantic prior only for frontier priority after legal successor generation; retain exact edge costs and terminal ID proof | Pruning loses the only successful branch, or a claimed optimal route lacks proof |
+| `choose_draft` | Evaluate answer quality independently of citation count; compare rule, Jev, and LLM/hybrid | Citation stuffing wins despite unsupported answer |
+| `next_step` | Factor operation and target judgments; dispatcher revalidates IDs and permissions | Correct operation on wrong or stale target |
+| `utterance_complete` | Compare semantic endpoint hint with a tuned pause threshold, off hard real-time paths | Mid-thought pause truncates speech or added wait harms latency |
+| `parse_command`, `emergency_stop`, `artifact_matches` | Exact finite grammar, local stop, and digest remain deterministic | Unneeded model call, network-dependent stop, or probabilistic proof |
+
+For the strongest candidate(s), require actual input and returned consumer, invocation condition, retained code and safety boundary, a simpler baseline, provider/uncertainty fallback, and an offline comparison with independent labels or cases. A proposal fails if it claims measured savings/accuracy, silently removes the full-suite fallback, treats a cache hit as freshness, or puts semantic inference on exact-proof/hard real-time paths. Do not demand all rows as proposals; mark meaningful omissions and unsupported assertions separately.
