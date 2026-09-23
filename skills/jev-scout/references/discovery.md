@@ -19,6 +19,8 @@ An existing deterministic improvement is an alternative, not proof that the prob
 
 Follow unmatched paths, rule conflicts, user-corrected assignments, source spans, diff-to-notification boundaries and predicate registries. Consider latent product value (for example user-defined semantic watch conditions), not only cost reduction. Consult [integration patterns](integration-patterns.md) when these seams exist. Do not treat a hash/parser/ACL negative signal as rejection of every feature in that product.
 
+Look beyond names such as `classify` or `route`: status codes, age thresholds, regexes, XPath pruning, convention parsers and line-boundary state machines may stand in for a semantic decision. A mixed generative response may contain a closed operation/ID decision beside text generation. Trace the actual consumer and consult [semantic seams](semantic-seams.md) for these cases; a keyword match alone is insufficient.
+
 Also follow these seams when they exist:
 
 - **Typed actions behind language parsing:** a function with closed arguments (enum, `Literal`, boolean, known IDs) is called after keyword or regex interpretation of natural language. Map only the bounded arguments to Choice/Noul; keep free text, arbitrary numbers and the call itself in code.

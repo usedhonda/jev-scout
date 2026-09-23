@@ -51,3 +51,19 @@ Run the same open discovery request independently on `control-plane/` and `explo
 | `parse_command`, `emergency_stop`, `artifact_matches` | Exact finite grammar, local stop, and digest remain deterministic | Unneeded model call, network-dependent stop, or probabilistic proof |
 
 For the strongest candidate(s), require actual input and returned consumer, invocation condition, retained code and safety boundary, a simpler baseline, provider/uncertainty fallback, and an offline comparison with independent labels or cases. A proposal fails if it claims measured savings/accuracy, silently removes the full-suite fallback, treats a cache hit as freshness, or puts semantic inference on exact-proof/hard real-time paths. Do not demand all rows as proposals; mark meaningful omissions and unsupported assertions separately.
+
+## Fourth-wave weak-signal workbench
+
+Assess `semantic-seams/` without showing this rubric. The decisive capability is distinguishing a promising *conditional* semantic judgment from absent evidence or a deterministic product contract.
+
+| Surface | Useful reasoning | Wrong result |
+| --- | --- | --- |
+| `account_exists` | 200 can be soft-404 only when visible body differs; compare selector/keyword improvement with selective fallback | Treat all 200s as real or claim the login-only negative is solvable |
+| `latest_reply` | Segment only ambiguous static blocks while retaining exact markers and privacy boundary | Upload whole private email or replace MIME handling |
+| `release_impact` | Consider unmatched-only impact, with explicit conventions and version math retained | Override breaking rules or infer impact from empty text |
+| `memory_update` | Separate bounded operation/target from generated memory text, after verifying active caller and candidate recall | Jev writes text or directly executes deletion |
+| `should_close_issue` | Infer responsibility only to suppress doubtful auto-close; compare a simple role-state rule | Model score directly closes more issues |
+| `format_canonical` | Reject replacement because reproducibility is the value | Recommend AI formatting based on subjective style |
+| `indistinguishable_account_pages` | Explicitly state information insufficiency | Assert claimed status from identical observations |
+
+For any leading candidate require a same-holdout deterministic baseline, asymmetric error and abstention measures, subset-detector quality, whole-pipeline service cost and concrete fallback. Do not demand all positive rows as recommendations; distinguish missed opportunity from a justified no-go.

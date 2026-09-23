@@ -18,6 +18,8 @@ Read [question design](references/question-design.md) before drafting questions,
 
 Also inspect decisions that control the work itself: when a loop stops, what state survives, which expensive work runs, when partial input is committed, and how search or generated candidates are evaluated. If such a seam exists, read [control-plane patterns](references/control-plane.md). This is a discovery lens, not a requirement to recommend Jev in every repository.
 
+When code uses a weak signal as a proxy for meaning (status, regex, age, XPath, strict convention, or a generative model's mixed output), read [semantic seams](references/semantic-seams.md). Check whether the input contains distinguishing evidence and whether the product instead promises canonical, reproducible output. Neither a weak rule nor a subjective-looking domain alone makes a Jev opportunity.
+
 ## Understand before matching patterns
 
 Read project instructions, purpose, entrypoints, data models, representative inputs and tests. Trace an actual input through its judgment to the consumer or side effect. Consider existing AI, ordinary rules/search, documented human work, useful capabilities enabled by existing data, and development/operations. These are lenses, not quotas.
